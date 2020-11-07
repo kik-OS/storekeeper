@@ -8,16 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B95346A82556EEE900E94130 /* WareHouseItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95346A72556EEE900E94130 /* WareHouseItems.swift */; };
+		E4287FFF255706230013B691 /* MyWareHouseCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4287FFE255706230013B691 /* MyWareHouseCellTableViewCell.swift */; };
 		E43EEBDA2556E9AD00087693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EEBD92556E9AD00087693 /* AppDelegate.swift */; };
 		E43EEBDC2556E9AD00087693 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EEBDB2556E9AD00087693 /* SceneDelegate.swift */; };
 		E43EEBDE2556E9AD00087693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EEBDD2556E9AD00087693 /* ViewController.swift */; };
 		E43EEBE12556E9AD00087693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43EEBDF2556E9AD00087693 /* Main.storyboard */; };
 		E43EEBE32556E9B000087693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43EEBE22556E9B000087693 /* Assets.xcassets */; };
 		E43EEBE62556E9B000087693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43EEBE42556E9B000087693 /* LaunchScreen.storyboard */; };
+		E4AFBEF22556FDD100651A60 /* myWareHouseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFBEF12556FDD100651A60 /* myWareHouseTableViewController.swift */; };
+		E4AFBEF52556FE1600651A60 /* wareHouseManageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFBEF42556FE1600651A60 /* wareHouseManageTableViewController.swift */; };
+		E4AFBEF82556FEC900651A60 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFBEF72556FEC900651A60 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B95346A72556EEE900E94130 /* WareHouseItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WareHouseItems.swift; sourceTree = "<group>"; };
+		E4287FFE255706230013B691 /* MyWareHouseCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWareHouseCellTableViewCell.swift; sourceTree = "<group>"; };
 		E43EEBD62556E9AD00087693 /* storekeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storekeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43EEBD92556E9AD00087693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E43EEBDB2556E9AD00087693 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		E43EEBE22556E9B000087693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43EEBE52556E9B000087693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43EEBE72556E9B000087693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4AFBEF12556FDD100651A60 /* myWareHouseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWareHouseTableViewController.swift; sourceTree = "<group>"; };
+		E4AFBEF42556FE1600651A60 /* wareHouseManageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wareHouseManageTableViewController.swift; sourceTree = "<group>"; };
+		E4AFBEF72556FEC900651A60 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				E43EEBDB2556E9AD00087693 /* SceneDelegate.swift */,
 				E43EEBDD2556E9AD00087693 /* ViewController.swift */,
 				E43EEBDF2556E9AD00087693 /* Main.storyboard */,
+				E4287FFE255706230013B691 /* MyWareHouseCellTableViewCell.swift */,
+				E4AFBEF72556FEC900651A60 /* TabBarViewController.swift */,
+				E4AFBEF42556FE1600651A60 /* wareHouseManageTableViewController.swift */,
+				E4AFBEF12556FDD100651A60 /* myWareHouseTableViewController.swift */,
 				E43EEBE22556E9B000087693 /* Assets.xcassets */,
 				E43EEBE42556E9B000087693 /* LaunchScreen.storyboard */,
 				E43EEBE72556E9B000087693 /* Info.plist */,
@@ -144,6 +156,10 @@
 				E43EEBDE2556E9AD00087693 /* ViewController.swift in Sources */,
 				E43EEBDA2556E9AD00087693 /* AppDelegate.swift in Sources */,
 				E43EEBDC2556E9AD00087693 /* SceneDelegate.swift in Sources */,
+				E4AFBEF82556FEC900651A60 /* TabBarViewController.swift in Sources */,
+				E4287FFF255706230013B691 /* MyWareHouseCellTableViewCell.swift in Sources */,
+				E4AFBEF52556FE1600651A60 /* wareHouseManageTableViewController.swift in Sources */,
+				E4AFBEF22556FDD100651A60 /* myWareHouseTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

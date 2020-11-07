@@ -22,7 +22,7 @@ extension WareHouseItem {
         WareHouseItem(name: "Отвертка",
                       quantity: 5,
                       description: "Ручной слесарный инструмент, предназначенный для завинчивания и отвинчивания крепёжных изделий с резьбой",
-                      status: true),
+                      status: false),
         WareHouseItem(name: "Поршень",
                       quantity: 3,
                       description: "Поршень от двигателя BMW M8",
