@@ -21,30 +21,47 @@ class myWareHouseTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 3
+        listOfItems.count
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        listOfItems[section].type
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return listOfItems.count
+        2
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myItem", for: indexPath) 
-        let equpment = listOfItems[indexPath.row]
-        cell.textLabel?.text = equpment.name
-       
-        if equpment.status {
-            cell.detailTextLabel?.text = "Доступно"
-            cell.detailTextLabel?.textColor = .systemGreen
-        } else {
-            cell.detailTextLabel?.text = "Недоступно"
-            cell.detailTextLabel?.textColor = .systemRed
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myItem", for: indexPath)
+        
+        let equpment = listOfItems[indexPath.section]
+//        cell.textLabel?.text = equpment.name
+        
+        var content = cell.defaultContentConfiguration()
+
+        switch indexPath.row {
+        case 0:
+            content.text = equpment.name
+        default:
+            content.text = "Количество на складе: \(equpment.quantity)"
         }
+       
+        
+       
+//        if equpment.status {
+//            cell.detailTextLabel?.text = "Доступно"
+//            cell.detailTextLabel?.textColor = .systemGreen
+//        } else {
+//            cell.detailTextLabel?.text = "Недоступно"
+//            cell.detailTextLabel?.textColor = .systemRed
+//        }
+        cell.contentConfiguration = content
+
         return cell
     }
+
     
 
     /*
